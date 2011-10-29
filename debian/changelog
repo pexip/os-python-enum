@@ -1,0 +1,11 @@
+python-enum (0.4.4-2) unstable; urgency=low
+
+  * Removed useless "setuptools" in requires.txt (Closes: #589992)
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sat, 29 Oct 2011 14:16:43 +0100
+
+python-enum (0.4.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #586228)
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Mon, 28 Jun 2010 08:59:23 +0100

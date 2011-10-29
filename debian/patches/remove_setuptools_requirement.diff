@@ -1,0 +1,13 @@
+Remove the "setuptools" requirement from setup.py
+--- a/setup.py
++++ b/setup.py
+@@ -37,9 +37,6 @@
+ 
+     # Setuptools metadata.
+     zip_safe=False,
+-    install_requires=[
+-        "setuptools",
+-        ],
+     test_suite="test.test_enum.suite",
+ 
+     # PyPI metadata.

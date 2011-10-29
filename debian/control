@@ -1,0 +1,23 @@
+Source: python-enum
+Section: python
+Priority: optional
+Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8.0.0~)
+ , python-setuptools
+ , python-all (>= 2.6.6-3~)
+ , python-nose
+Standards-Version: 3.9.2
+X-Python-Version: >= 2.5
+Homepage: http://pypi.python.org/pypi/enum/
+Vcs-Git: git://git.debian.org/collab-maint/python-enum.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/python-enum.git;a=summary
+
+Package: python-enum
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: robust enumerated type support in Python
+ An enumeration object is an immutable sequence object built from a sequence
+ of strings. Each value is also available as an attribute.
+ Such values are constant. Comparisons and enumeration are
+ supported.
