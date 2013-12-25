@@ -1,3 +1,9 @@
+python-enum (0.4.4-2pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 25 Dec 2013 03:01:02 +0000
+
 python-enum (0.4.4-2) unstable; urgency=low
 
   * Removed useless "setuptools" in requires.txt (Closes: #589992)

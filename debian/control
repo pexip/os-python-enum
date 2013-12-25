@@ -1,7 +1,8 @@
 Source: python-enum
 Section: python
 Priority: optional
-Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8.0.0~)
  , python-setuptools
@@ -12,6 +13,7 @@ X-Python-Version: >= 2.5
 Homepage: http://pypi.python.org/pypi/enum/
 Vcs-Git: git://git.debian.org/collab-maint/python-enum.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/python-enum.git;a=summary
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: python-enum
 Architecture: all
